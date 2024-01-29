@@ -17,7 +17,7 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.skyline.svg
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ""
           base: ""
           plugin_skyline: yes
           plugin_skyline_year: 2024
