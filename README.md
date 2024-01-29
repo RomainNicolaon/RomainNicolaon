@@ -4,6 +4,6 @@
 
 ![Calendar](/metrics.plugin.calendar.full.svg)
 
-![Wakatime](/metrics.plugin.wakatime.svg)
+![[Wakatime](https://wakatime.com/@Romainln)](/metrics.plugin.wakatime.svg)
 
 ![Snake](/github-contribution-grid-snake-dark.svg)
