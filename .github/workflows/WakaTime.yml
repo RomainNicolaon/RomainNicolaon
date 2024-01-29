@@ -1,8 +1,10 @@
 name: WakaTime
 on:
   # Schedule daily updates
-  schedule: [{cron: "0 0 * * *"}]
-  # (optional) Run workflow manually
+  schedule:
+    - cron: "0 */24 * * *" 
+  
+  # allows to manually run the job at any time
   workflow_dispatch:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
